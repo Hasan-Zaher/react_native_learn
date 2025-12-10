@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme":"hasanVIP",
     "name": "project_1",
     "slug": "project_1",
     "version": "1.0.0",
@@ -24,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
